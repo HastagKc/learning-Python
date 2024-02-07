@@ -23,7 +23,6 @@ print(user_name[1:5]) # shit index 5 will not include
 print(user_name[::2]) # print all laternative words 
 
 
-
 # String Length
 dis = "I like mountain bikes"
 print(len(dis))
@@ -52,7 +51,3 @@ print(result2)
 # Escape Characters:
 escaped_string = "This is a newline \nand this is a tab \tcharacter."
 print(escaped_string)
-
-
-
-
