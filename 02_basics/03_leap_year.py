@@ -3,9 +3,6 @@
 # The following years are not leap years:
 # 1700, 1800, 1900, 2100, 2200, 2300, 2500, 2600
 
-
-
-
 # Python program to check if year is a leap year or not
 
 year = 1800
