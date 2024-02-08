@@ -9,6 +9,7 @@ if(x > 0):
 
 
 # if-else 
+# if one condition if checked it will not check other condition in if else
 x = 10
 if(x>0):
     print(x, "is postive number")
@@ -30,3 +31,13 @@ else:
 # Example of ternary conditional expression
 result = "positive" if x > 0 else "non-positive"
 print("x is", result)
+
+
+# Remember
+x = 10
+if x <= 10:
+    print("x is less or equal to 10")
+elif x == 10:
+    print("x is equal to 10")  # This block will not be executed
+else:
+    print("x is greater than 10")
