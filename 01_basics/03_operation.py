@@ -66,6 +66,8 @@ is_same = (obj is obj2)
 print(is_same)
 
 # member Operators 
+
+# In Python, the in operator is used to check if a value exists within a sequence (such as a list, tuple, string, or dictionary). It returns True if the value is found in the sequence, and False otherwise.
 num_list = [2, 3, 85, 500]
 is_in_list = (50 in num_list)
 print("is in the list: ", is_in_list) # False
