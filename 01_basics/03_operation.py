@@ -59,6 +59,9 @@ print("Value of num2 after decrement:",num2)
 
 # Identity Operators:
 # Test if two variables reference the same object.
+# Identity operators are used to compare the memory locations of 
+# two objects to determine if they are the same object. In Python, 
+# there are two identity operators: is and is not.
 
 obj = [1, 2, 3]
 obj2 = obj

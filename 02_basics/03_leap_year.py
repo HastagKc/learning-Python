@@ -24,3 +24,29 @@ elif (year % 4 ==0) and (year % 100 != 0):
 # year is not leap year
 else:
     print("{0} is not a leap year".format(year))
+
+
+
+# different way 
+def is_leap_year(year):
+    if (year % 4) == 0:
+        if (year % 100) == 0:
+            if (year % 400) == 0:
+                return True
+            else:
+                return False
+        else:
+            return True
+    else:
+        return False
+
+if is_leap_year(2024):
+    print("Leap year")
+else:
+    print("Not a leap year")
+
+        
+
+
+
+
