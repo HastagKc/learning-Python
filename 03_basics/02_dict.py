@@ -41,8 +41,9 @@ values_list = new_dict.values()   # Returns a view of all values in the dictiona
 items_list = new_dict.items()     # Returns a view of all key-value pairs (tuples) in the dictionary
 
 for i in keys_list:
-    print(i)
-
-for i in items_list:
-    print(i)
+    print(i) 
     print(type(i))
+
+# for i in items_list:
+#     print(i)
+#     # print(type(i)) # tuples beacuse there is mixed datatypes 
