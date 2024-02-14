@@ -43,12 +43,3 @@ programToMaxThreeNumber(num1, num2, num3)
 max_value = max_number(num1=10, num2=30, num3=45)
 print("Maximum number: ", max_value)
 
-
-
-
-
-        
-
-
-
-
