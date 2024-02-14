@@ -20,9 +20,9 @@
 
 # 10. Program to find the sum of natural numbers using while loop. >> done 
 
-# 11. Program to find the sum of digits of a number using while loop.
+# 11. Program to find the sum of digits of a number using while loop. >> done
 
-# 12. Program to print Fibonacci series up to n terms.
+# 12. Program to print Fibonacci series up to n terms. >> dine
 
 # 13. Program to find the factorial of a number using for loop.
 
