@@ -4,3 +4,22 @@ In Python, a list is a collection of items enclosed within square brackets [ ]. 
 
 '''
 
+# create list 
+fruits_list = ['apple','banana','grapes']
+
+# adding value in the list 
+fruits_list.append('orange')
+
+# diplaying value from list 
+
+
+
+
+
+name =  ['kshittiz', 'ram','sita','shyam']
+user_name = input("Enter correct user name to login: ")
+
+if user_name in name:
+    print('login successfully')
+else:
+    print('Invalid user')
