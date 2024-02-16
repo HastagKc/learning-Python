@@ -24,9 +24,9 @@
 
 # 12. Program to print Fibonacci series up to n terms. >> dine
 
-# 13. Program to find the factorial of a number using for loop.
+# 13. Program to find the factorial of a number using for loop. >> done
 
-# 14. Program to print multiplication table of a number.
+# 14. Program to print multiplication table of a number. >> done 
 
 # 15. Program to find the GCD (Greatest Common Divisor) of two numbers.
 # 16. Program to check if a number is a perfect number or not.
@@ -34,5 +34,3 @@
 # 18. Program to check if a number is even or odd without using modulus operator.
 # 19. Program to find the roots of a quadratic equation.
 # 20. Program to find the area of a triangle given its sides.
-
-# Each of these programs demonstrates various aspects of conditional statements in Python and will help in understanding and mastering the concepts. Let me know if you need any further explanation or assistance with any of these programs!
