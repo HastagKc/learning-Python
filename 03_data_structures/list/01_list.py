@@ -9,17 +9,25 @@ fruits_list = ['apple','banana','grapes']
 
 # adding value in the list 
 fruits_list.append('orange')
+fruits_list.extend(['football','cricket','hokey'])
 
 # diplaying value from list 
+print('before:===============>')
+for i in fruits_list:
+    print(i)
+
+# update 
+fruits_list[0] = 'baseball'
+print('after:====================>')
+for i in fruits_list:
+    print(i)
 
 
+# remove from list 
+fruits_list.remove('banana')
+fruits_list[0] = 'baseball'
+print('after removing :====================>')
+for i in fruits_list:
+    print(i,end=" ")
 
 
-
-name =  ['kshittiz', 'ram','sita','shyam']
-user_name = input("Enter correct user name to login: ")
-
-if user_name in name:
-    print('login successfully')
-else:
-    print('Invalid user')
