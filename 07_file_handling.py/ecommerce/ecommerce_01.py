@@ -57,8 +57,7 @@ def view_bill(username):
     print(f'Total: {total}')
 
 
-
-                
+              
       
 def usertypeFun(usertype, username):
     if usertype == 'buyer':
