@@ -47,7 +47,17 @@ def view_bill(username):
                 print(f'Product name: {dict_data.get('name')}')
                 print(f'Product price: {dict_data.get('price')}')
                 total = total + float(dict_data.get('price'))
+
+            else:
+                if username == dict_data.get('seller'):
+                    print(f'Product name: {dict_data.get('name')}')
+                    print(f'Product price: {dict_data.get('price')}')
+                    total = total + float(dict_data.get('price'))
+
     print(f'Total: {total}')
+
+
+
                 
       
 def usertypeFun(usertype, username):
@@ -83,8 +93,8 @@ def usertypeFun(usertype, username):
             add_product(username)
         elif user_option_choice == '2':
             view_your_product(username)
-        elif user_option_choice == '2':
-            view_your_product(username)
+        elif user_option_choice == '3':
+            view_bill(username)
 
     else:
         print('''
